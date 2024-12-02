@@ -1,0 +1,68 @@
+.present {
+    background-image: url(../../img/Present/bg.png);
+    background-repeat: no-repeat;
+    height: 458px;
+    background-size: cover;
+    background-position: center;
+    max-width: 1400px;
+    width: 100%;
+}
+.present__container {
+    height: 100%;
+}
+.present__row{
+    height: 100%;
+
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+}
+.present__text-box {
+}
+.present__title {
+    font-family: "Cormorant", serif;
+    font-weight: 700;
+    font-size: 3.75rem;
+    color: rgb(255, 255, 255);
+    letter-spacing: 1px;
+    max-width: 620px;
+    margin-bottom: 22px;
+
+}
+.present__text {
+    font-family: "Open Sans", serif;
+    font-weight: 400;
+    font-size: 1rem;
+    line-height: 150%;
+    color: rgb(255, 255, 255);
+    max-width: 640px;
+    margin-bottom: 24px;
+
+}
+.present__button {
+    color: #BAE249;
+    font-weight: 700;
+    line-height: 22px;
+    position: relative;
+    font-size: 1rem;
+}
+.present__button::before{
+    content: url(../../img/Present/arrow.png);
+    top: 3px;
+    position: absolute;
+    right: -58px;
+}
+@media (max-width: 767px){
+    .present__row {
+        display: flex;
+        justify-content: center;
+    }
+    .present__title{
+        font-size: 3rem;
+        max-width: 200px;
+        margin-bottom: 30px;
+    }
+    .present__text{
+        display: none;
+    }
+}
