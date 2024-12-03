@@ -1,16 +1,17 @@
-
 import "./App.css";
 import Footer from "./components/Footer/Footer.jsx";
 import Header from "./components/Header/Header.jsx";
 import Present from "./components/Present/Present.jsx";
+import Slider from "./components/Slider/Slider.jsx";
 function App() {
   return (
     <div className="App">
-      <Header/>
+      <Header />
       <main className="main">
-        <Present/>
+        <Present />
+        <Slider />
       </main>
-      <Footer/>
+      <Footer />
     </div>
   );
 }
