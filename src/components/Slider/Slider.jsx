@@ -72,7 +72,7 @@ export default function Slider() {
               <img src={slideTwo} alt="img-one" />
             </div>
             <div className="slider__text-box">
-              <h2 className="slider__title">Fig. 1 (plant)</h2>
+              <h2 className="slider__title">Fig. 2 (flower)</h2>
               <p className="slider__text">
                 Имеется спорная точка зрения, гласящая примерно следующее:
                 активно развивающиеся страны третьего мира своевременно
@@ -218,7 +218,7 @@ export default function Slider() {
                   <img src={slideTwo} alt="img-one" />
                 </div>
                 <div className="slider__text-box">
-                  <h2 className="slider__title">Fig. 1 (plant)</h2>
+                  <h2 className="slider__title">Fig. 2 (flower)</h2>
                   <p className="slider__text">
                     Имеется спорная точка зрения, гласящая примерно следующее:
                     активно развивающиеся страны третьего мира своевременно

@@ -67,7 +67,7 @@ transform: translateX(50px);
 .slider__text{
     line-height: 150%;
     font-weight: 400;
-    font-size: 1rem;
+    font-size: .9375rem;
     color: rgb(137, 157, 157);
 }
 .slider__button{
