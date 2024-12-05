@@ -29,13 +29,12 @@ transform: translateX(50px);
     border: 1px solid #000;
 
     height: 495px;
-    max-width: 255px;
+ 
 }
-@media (max-width: 767px){
-    .swiper-slide{
-        max-width: 500px;
-    }
+.slider__slide-box{
+    /* min-width: 255px; */
 }
+
 .slider__slide-box{
     display: flex;
     flex-direction: column;

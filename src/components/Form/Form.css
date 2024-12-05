@@ -1,0 +1,56 @@
+.form{
+    position: relative;
+    background-image: url(../../img/Form/bg.png);
+}
+@media (max-width: 767px) {
+    .form__container{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    .form__content-box{
+        max-width: 350px;
+    }
+}
+.form__container{}
+.form__content-box{
+    z-index: 20;
+}
+.form__title{
+    font-family: "Cormorant", serif;
+    font-size: 3rem;
+    font-weight: 700;
+    margin-bottom: 1rem;
+    color: rgb(255, 255, 255);
+}
+.form__text{
+    max-width: 825px;
+    color: rgb(255, 255, 255);
+    margin-bottom: 24px;
+}
+.form__box{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 1.5rem;
+}
+.form__input{
+    width: 350px;
+
+    background-color: rgb(255, 255, 255);
+    padding: 10.5px 16px;
+}
+
+.form__input::placeholder{
+    color: rgb(137, 157, 157);
+}
+.form__button{
+    max-width: 145px;
+    width: 100%;
+    height: 45px;
+    background-color: rgb(186, 226, 73);
+    color: rgb(11, 25, 25);
+    font-weight: 700;
+    font-size: 1rem;
+
+}

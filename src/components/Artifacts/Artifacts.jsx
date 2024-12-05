@@ -1,5 +1,5 @@
 import React from "react";
-
+import "./Artifacts.css"
 export default function Artifacts() {
   return (
     <section className="artifacts">
@@ -12,15 +12,21 @@ export default function Artifacts() {
             <img src="" alt="" />
           </div>
           <div className="artifacts__text-box">
+            <div className="artifacts__text-top">
             <h3 className="artifacts__title">Kurische Nehrung 24</h3>
-            <p className="artifacts__text"></p>
-            <a href="/#" className="artifacts__button">
+            <p className="artifacts__text">
               Вот вам яркий пример современных тенденций - начало повседневной
               работы по формированию позиции выявляет срочную потребность
               методов управления процессами.
               <br />
+              <br />
               Есть над чем задуматься: представители современных социальных
               резервов своевременно верифицированы.
+            </p>
+            </div>
+           
+            <a href="/#" className="artifacts__button">
+              Читать далее
             </a>
           </div>
         </div>
