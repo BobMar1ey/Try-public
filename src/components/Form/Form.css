@@ -1,6 +1,9 @@
 .form{
     position: relative;
     background-image: url(../../img/Form/bg.png);
+    background-position: center;
+    max-width: 1350px;
+    
 }
 @media (max-width: 767px) {
     .form__container{
@@ -12,7 +15,12 @@
         max-width: 350px;
     }
 }
-.form__container{}
+.form__container{
+
+    height: 463px;
+    display: flex;
+    align-items: center;
+}
 .form__content-box{
     z-index: 20;
 }

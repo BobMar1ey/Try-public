@@ -4,12 +4,12 @@
     top: 0;
     background-color: #1D2F30;
     z-index: 50;
-    max-width: 1400px;
+    max-width: 1350px;
     width: 100%;
 }
 .header .header__container{
-    max-width: 1400px;
-    padding: 16px 145px;
+    max-width: 1350px;
+    padding: 16px 125px;
 }
 .header__row {
     display: flex;

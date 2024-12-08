@@ -2,7 +2,7 @@ import React from "react";
 import './Form.css'
 export default function Form() {
   return (
-    <section className="form">
+    <section id="Form" className="form">
       <div className="form__container">
         <div className="form__content-box">
           <h2 className="form__title">Помочь проекту</h2>

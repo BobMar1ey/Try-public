@@ -63,7 +63,7 @@ export default function Slider() {
   const isLaptop = window.innerWidth <= 992;
 
   return (
-    <section className="slider__container">
+    <section id="Slider" className="slider__container">
       <Swiper
         spaceBetween={30}
         modules={[Pagination, Navigation]}

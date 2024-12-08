@@ -22,7 +22,7 @@ export default function Header() {
                   </a>
                 </li>
                 <li className="header__item">
-                  <a className="header__link" href="/#">
+                  <a className="header__link" href="/#Slider">
                     Галерея
                   </a>
                 </li>
@@ -32,7 +32,7 @@ export default function Header() {
                   </a>
                 </li>
                 <li className="header__item">
-                  <a href="/#" className="header__link">
+                  <a href="/#Form" className="header__link">
                     Контакты
                   </a>
                 </li>
